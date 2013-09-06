@@ -3,7 +3,15 @@ ccss-website
 
 ## Requirements
   * Ruby >= 1.8.6
-  * `gem install nanoc`
+  * Git
+
+## Installation
+After you clone this repo, run the following commands:
+```
+gem install nanoc
+git submodule init
+git submodule update
+```
 
 ## Usage
 
