@@ -9,6 +9,7 @@ ccss-website
 After you clone this repo, run the following commands:
 ```
 gem install nanoc
+gem install adsf
 git submodule init
 git submodule update
 ```
@@ -16,7 +17,6 @@ git submodule update
 ## Usage
 
 To compile:
-
 ```
 nanoc
 ```
