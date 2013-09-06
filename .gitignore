@@ -1,0 +1,5 @@
+*.sublime-*
+output/*
+!outout/.folder
+tmp/*
+!tmp/.folder

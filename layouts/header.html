@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+    <title>CCSS - <%= @item[:title] %></title>
+    <link rel="stylesheet" href="/assets/normalize/normalize.css">
+    <link rel="stylesheet" href="/assets/skeleton/stylesheets/skeleton.css">
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header sixteen columns">
+        <div class="logo ten columns alpha">
+          <a href="/" title="Carleton Computer Science Society">
+            <img src="/assets/logo.png" alt="CCSS" width="300px" height="auto">
+          </a>
+        </div>
+        <div class="contact offset-by-one five columns omega">
+          Carleton Computer Science Society <br>
+          4139 Herzberg <br>
+          <a href="https://www.facebook.com/CarletonComputerScienceSociety">
+            <img src="/assets/facebook.png" alt="facebook" width="25px" height="25px">
+          </a>
+          <a href="https://twitter.com/carletoncss">
+            <img src="/assets/twitter.png" alt="twitter" width="25px" height="25px">
+          </a>
+        </div>
+      </div>
+      <%= yield %>

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oxygen Light'), local('Oxygen-Light'), url(oxygen-300.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), local('Oxygen-Regular'), url(oxygen-400.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oxygen Bold'), local('Oxygen-Bold'), url(oxygen-500.woff) format('woff');
+}
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-rendering: optimizeLegibility;
+}
+
+.header {
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+}
+
+.header a {
+	text-decoration: none;
+	color: black;
+}
+
+.header > .logo {
+	padding-top: 10px;
+}
+
+.header > .contact {
+	font-size: 15px;
+	line-height: 18px;
+	text-align: right;
+}
+
+.menu {
+	border-bottom: 1px solid black;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 5px 0px;
+}
+
+.menu li {
+	display: inline-block;
+	border-bottom: 1px solid white;
+}
+
+.menu li a {
+	color: black;
+	font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.menu li:hover, .menu li:hover * {
+	color: gray;
+}
+
+.content h2 {
+	border-bottom: 1px solid black;
+}

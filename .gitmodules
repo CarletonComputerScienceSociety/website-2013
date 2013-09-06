@@ -1,0 +1,9 @@
+[submodule "Skeleton"]
+	path = Skeleton
+	url = git@github.com:dhg/Skeleton.git
+[submodule "content/assets/skeleton"]
+	path = content/assets/skeleton
+	url = git@github.com:dhg/Skeleton.git
+[submodule "content/assets/normalize"]
+	path = content/assets/normalize
+	url = git@github.com:necolas/normalize.css.git
