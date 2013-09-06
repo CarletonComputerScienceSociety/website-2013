@@ -62,7 +62,6 @@ git commit
 git push origin master
 ```
 
-The final step is to make a [pull
-request][(https://help.github.com/articles/using-pull-requests) to the upstream
-repository. The CCSS web site administrator will make your changes public.
+The final step is to make a pull request to the upstream repository. The CCSS
+web site administrator will make your changes public.
 
